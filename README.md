@@ -104,9 +104,9 @@ A **time-based split** is used (train on the first 10 months, test on the last 2
 
 | Metric | Value |
 |--------|-------|
-| Train accuracy | _fill in_ |
-| Test accuracy | _fill in_ |
-| Macro F1-score | _fill in_ |
+| Train accuracy | 94% |
+| Test accuracy | 93% |
+| Macro F1-score | 94% |
 
 Example output of the model: a list of **UP**, **DOWN** and **STABLE** brands for the test months.
 
@@ -178,12 +178,6 @@ The script prints the dataset summary, sentiment distribution, evaluation metric
 - Add lag features (previous 2–3 months) and rolling averages
 - Try Gradient Boosting / XGBoost and compare with Random Forest
 - Build a dashboard for brand monitoring
-
----
-
-## Tech Stack
-
-Python · Pandas · NumPy · Scikit-learn · TextBlob
 
 ---
 
